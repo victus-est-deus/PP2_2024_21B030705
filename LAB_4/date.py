@@ -2,7 +2,6 @@ import datetime
 
 
 # 1
-
 def subtract_five_days():
     t = datetime.datetime.now()
     fdb = t - datetime.timedelta(days=5)

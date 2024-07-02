@@ -29,7 +29,7 @@ def area_regular_polygon(n, s):
 num_sides = 4
 length_side = 25
 area = area_regular_polygon(num_sides, length_side)
-print(f"The area of the polygon is: {area}")
+print(f"The area of the polygon is: {area:.0f}")
 #4
 def area_parallelogram(base, height):
     return base * height

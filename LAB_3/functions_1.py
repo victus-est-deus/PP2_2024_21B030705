@@ -1,3 +1,6 @@
+from itertools import permutations
+import random
+import math
 # ex1
 def grams_to_ounces(grams):
     return grams / 28.3495231
@@ -32,9 +35,6 @@ def filter_prime(numbers):
 
 
 # ex5
-from itertools import permutations
-
-
 def print_permutations(s):
     for perm in permutations(s):
         print(''.join(perm))
@@ -63,9 +63,6 @@ def spy_game(nums):
 
 
 # ex9
-import math
-
-
 def sphere_volume(radius):
     return (4 / 3) * math.pi * (radius ** 3)
 
@@ -92,9 +89,6 @@ def histogram(lst):
 
 
 # ex13
-import random
-
-
 def guess_the_number():
     print("Hello! What is your name?")
     name = input()
@@ -113,7 +107,4 @@ def guess_the_number():
             print(f"Good job, {name}! You guessed my number in {guesses_taken} guesses!")
             break
 
-# ex2
-# ex3
-# ex2
-# ex3
+
